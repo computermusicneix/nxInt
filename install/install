@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cp startup.scd $HOME/.config/SuperCollider
+
+cp -r Extensions $HOME/.local/share/SuperCollider
+
+mkdir $HOME/.config/devilspie2
+
+cp nxDevil.lua $HOME/.config/devilspie2
+
+cp sc_ide_conf.yaml $HOME/.config/SuperCollider

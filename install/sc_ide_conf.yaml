@@ -1,0 +1,69 @@
+IDE:
+  editor:
+    blinkDuration: 600
+    colors:
+      evaluatedCode: !textFormat
+        color: "#000000"
+        background: "#f8a200"
+      lineNumbers: !textFormat
+        color: "#ffffff"
+      matchingBrackets: !textFormat
+        color: "#ff0000"
+        bold: true
+      mismatchedBrackets: !textFormat
+        color: "#ffffff"
+        background: "#960000"
+      searchResult: !textFormat
+        color: "#c5c5c5"
+        background: "#475738"
+      selection: !textFormat
+        color: "#ffffff"
+      text: !textFormat
+        color: "#ffffff"
+        background: "#000000"
+    font:
+      antialias: 2
+      family: Courier 10 Pitch
+      size: 9
+    highlighting:
+      built-in: !textFormat
+        color: "#4444ff"
+      char: !textFormat
+        color: "#00e700"
+      class: !textFormat
+        color: "#0000fe"
+      comment: !textFormat
+        color: "#ff0000"
+      env-var: !textFormat
+        color: "#ff7f24"
+      keyword: !textFormat
+        color: "#0000e6"
+        bold: true
+      number: !textFormat
+        color: "#fb00ff"
+      primitive: !textFormat
+        color: "#4444ff"
+      string: !textFormat
+        color: "#dedede"
+      symbol: !textFormat
+        color: "#00f000"
+    indentWidth: 4
+    lineWrap: true
+    spaceIndent: false
+    stepForwardEvaluation: false
+  interpreter:
+    autoStart: true
+    runtimeDir: ""
+  mainWindow:
+    detached: !QVariantMap
+      documents-dock: ""
+      help-dock: ""
+      post-dock: ""
+    geometry: AdnQywABAAAAAAAtAAAADgAAAicAAANZAAAANwAAADAAAAIdAAADTwAAAAAAAA==
+    state: AAAA/wAAAAD9AAAAAwAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAGcA////AAAAAQAAASoAAALr/AIAAAAB+wAAABIAaABlAGwAcAAtAGQAbwBjAGsAAAAAGwAAAusAAABNAP///wAAAAMAAAHnAAABIfwBAAAAAfsAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAAAAAAHnAAAAvAD///8AAAHnAAAByQAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+  postWindow:
+    lineWrap: false
+    scrollback: 1000
+  recentDocuments: !QVariantList
+    []
+  startWithSession: ""

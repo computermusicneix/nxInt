@@ -1,0 +1,13 @@
+#!/bin/bash
+
+jackd -dalsa -dhw:0 -r44100 -p1024 -n2 &
+sleep 2
+$HOME/nxInt/nxVisual002/application.linux32/nxVisual002 &
+sleep 2
+scide &
+sleep 2
+devilspie2
+
+
+
+
